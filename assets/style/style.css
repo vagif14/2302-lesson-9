@@ -1,0 +1,87 @@
+.container {
+    background: #E8E8F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 15px;
+    background: #FFF;
+    padding: 60px 66px;
+    height: 300px;
+}
+
+.title {
+    color: #121F38;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 274px;
+    word-break: break-all;
+}
+
+.descr {
+    width: 284px;
+    word-break: break-all;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    color: #121F38;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.pink-border {
+    border: 1px solid #FF68A7;
+}
+
+.blue-border {
+    border: 1px solid #68A4FF;
+}
+
+.icon {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.pink-bg {
+    background-color: #FF68A7;
+}
+
+.blue-bg {
+    background-color: #68A4FF;
+}
+
+.btn {
+    outline: none;
+    border: 0;
+    padding: 16px 26px;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 24px;
+}
+
+.pink-btn {
+    color: #E02E79;
+    background: #FFE8F1;
+}
+
+.blue-btn {
+    color: #1B65D6;
+    background: #EDF4FF;
+}
